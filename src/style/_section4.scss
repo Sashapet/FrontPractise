@@ -1,0 +1,52 @@
+.section4 {
+  overflow: hidden;
+  padding-bottom: 50px;
+  .section4-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #b5e8d5,
+      #b5e8d5 90px,
+      #fefefe 25px,
+      #fefefe 180px
+    );
+    background-size: cover;
+    background-attachment: fixed;
+    .ball {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .ice-cream {
+      height: 100%;
+      padding: 0px 100px;
+      position: relative;
+      bottom: -7%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .section4-hashTag {
+    padding-top: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2f2e2e;
+    font-family: "DINNeuzeitGroteskLTW01-BdCn";
+  }
+}
+
+.left {
+  position: relative;
+  left: -5%;
+}
+.right {
+  position: relative;
+  right: -5%;
+}

@@ -1,0 +1,95 @@
+.section3 {
+  height: 100vh;
+  background: url("../photos/ice-cream-5.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  .section3-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title1 {
+      z-index: 1;
+      color: white;
+      letter-spacing: 4px;
+      font-weight: lighter;
+    }
+    .title2 {
+      z-index: 1;
+      color: white;
+      font-size: 100px;
+      letter-spacing: 20px;
+      font-family: "Montserrat", sans-serif;
+      padding: 20px 0px;
+    }
+    .section-button {
+      transition: all 0.3s;
+      z-index: 1;
+      color: white;
+      font-size: 25px;
+      padding: 3px 50px;
+      font-family: "DINNeuzeitGroteskLTW01-BdCn";
+      background-color: transparent;
+      border: 2px solid white;
+      outline: none;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .section-button:hover {
+      background-color: #242323;
+      border: 2px solid #242323;
+    }
+  }
+}
+
+.section3-second {
+  height: 100vh;
+  background: url("../photos/ice-cream-6.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  .section3-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title1 {
+      z-index: 1;
+      color: white;
+      letter-spacing: 4px;
+      font-weight: lighter;
+    }
+    .title2 {
+      z-index: 1;
+      color: white;
+      font-size: 100px;
+      letter-spacing: 20px;
+      font-family: "Montserrat", sans-serif;
+      padding: 20px 0px;
+    }
+    .section-button {
+      transition: all 0.3s;
+      z-index: 1;
+      color: white;
+      font-size: 25px;
+      padding: 3px 50px;
+      font-family: "DINNeuzeitGroteskLTW01-BdCn";
+      background-color: transparent;
+      border: 2px solid white;
+      outline: none;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .section-button:hover {
+      background-color: #242323;
+      border: 2px solid #242323;
+    }
+  }
+}
